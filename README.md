@@ -10,7 +10,7 @@ Dit model simuleert het elektriciteitsverbruik van een **all-electric woning op 
 
 ### Het probleem
 
-Nederland elektriseert massaal. Woningen krijgen warmtepompen, inductiekookplaten en laadpalen — maar de enkelfasige aansluiting (35A = ~8 kW) blijft ongewijzigd. De combinatie van gelijktijdig gebruik kan de zekering laten vliegen of netcongestie veroorzaken.
+Nederland elektriseert massaal. Woningen krijgen warmtepompen, inductiekookplaten en laadpalen — maar de enkelfasige aansluiting (35A = ~8 kW) blijft ongewijzigd. De combinatie van gelijktijdig gebruik kan de zekering laten doorbranden/afschakelen of netcongestie veroorzaken.
 
 Een **LoadLimiter** pauzeert de warmtepomp kort bij piekbelasting (bijv. koken + douchen + EV laden). De warmtevraag wordt "uitgesteld", niet bespaard — het huis koelt iets af en de WP haalt de achterstand later in.
 
